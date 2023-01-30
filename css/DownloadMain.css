@@ -1,0 +1,43 @@
+
+.DownloadBG {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  background-color: #2B2A28;
+
+  margin: 2vh 1vw 1vh 1vw ;
+  padding: 2.5vh 2vw 2vh 4vw;
+
+  border-radius: 30px;
+  border-style: ridge;
+  border-color: #5156ff;
+  border-width: 2px;
+
+  height: 100%;
+
+  color: whitesmoke;
+}
+
+.DownloadText {
+  margin: 0;
+  font-size: 2vmin
+}
+.DownloadLink {
+  margin: 0 0 1vh;
+  background: -webkit-linear-gradient(#5156ff, #F15651);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.DownloadLink:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.DownloadTitle{
+  font-size: 5vmin;
+  font-weight: bold;
+}
+p.DownloadText {
+  font-size: 2.5vmin;
+}
