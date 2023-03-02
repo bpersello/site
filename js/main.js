@@ -3,7 +3,7 @@ const result = document.getElementById("result");
 const buttonPressed = e => {
   switch (e.target.id) {
     case ("NavBarDownload"):
-      window.location.href("~/Downloads");
+      window.location.href = "~/Downloads";
       break;
     case ("NavBarHelp"):
       alert("help")
@@ -26,7 +26,7 @@ for (let button of buttons) {
 }
 
 function home() {
-  window.location.href("~");
+  window.location.href = "~";
 }
 
 function download(version) {
