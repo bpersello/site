@@ -3,7 +3,7 @@ const result = document.getElementById("result");
 const buttonPressed = e => {
   switch (e.target.id) {
     case ("NavBarDownload"):
-      window.location.replace("http://localhost:63342/DiscoBot/Downloads.html?_ijt=b3j4oea1so1b25ejddk04jee1h");
+      window.location.href("~/Downloads");
       break;
     case ("NavBarHelp"):
       alert("help")
@@ -26,7 +26,7 @@ for (let button of buttons) {
 }
 
 function home() {
-  window.location.replace("http://localhost:63342/DiscoBot/index.html?_ijt=b3j4oea1so1b25ejddk04jee1h");
+  window.location.href("~");
 }
 
 function download(version) {
