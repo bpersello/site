@@ -26,7 +26,7 @@ for (let button of buttons) {
 }
 
 function home() {
-  window.location.href = "";
+  window.location.href = "https://persello.me";
 }
 
 function download(version) {
